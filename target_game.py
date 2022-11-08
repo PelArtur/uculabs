@@ -147,7 +147,7 @@ def results():
     If there are no word formation variations, the function returns None'''
     generatetbale = generate_grid()
     print(generatetbale)
-    dictlist = get_words('targetdict.txt', generatetbale)
+    dictlist = get_words('en', generatetbale)
     print(dictlist)
     if len(dictlist) == 0:
         return None
