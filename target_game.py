@@ -148,7 +148,6 @@ def results():
     generatetbale = generate_grid()
     print(generatetbale)
     dictlist = get_words('en', generatetbale)
-    print(dictlist)
     if len(dictlist) == 0:
         return None
     userwords = get_user_words()
