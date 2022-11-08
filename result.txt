@@ -1,0 +1,4 @@
+Правильні слова -['axle', 'ulex']
+Усі можливі слова-['axle', 'exalt', 'exult', 'latex', 'luxate', 'luxe', 'ulex']
+Пропущені слова -['exalt', 'exult', 'latex', 'luxate', 'luxe']
+Слова, які є відсутніми в словнику -[]
