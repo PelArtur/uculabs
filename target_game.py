@@ -8,7 +8,8 @@ def letter(word):
     '''
     list -> set
 
-    Creates a set of existing letters in a word'''
+    Creates a set of existing letters in a word
+    '''
     res = []
     ablen = len(word)
     for i in range(0, ablen):
@@ -94,7 +95,6 @@ def get_pure_user_words(user_words: List[str], lttrs: List[str], dictwords: List
 
     Checks user words with the rules and returns list of those words
     that are not in dictionary.
-
     """
     userwords = validate_words(user_words, lttrs)
     userwordslen = len(userwords)
@@ -142,9 +142,11 @@ def notsamewords(userwords, tablewords):
     return res
 
 def results():
-    '''The game board is generated, the data entered by the player and the dictionary are processed.
+    '''
+    The game board is generated, the data entered by the player and the dictionary are processed.
     Returning the result to the terminal and the file 'result.txt'
-    If there are no word formation variations, the function returns None'''
+    If there are no word formation variations, the function returns None
+    '''
     generatetbale = generate_grid()
     print(generatetbale)
     dictlist = get_words('en', generatetbale)
